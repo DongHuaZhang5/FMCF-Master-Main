@@ -1,9 +1,9 @@
 
-from Data_Split_Process.Split_comments import get_dicts
+from Data_Preprocessing.Split_comments import get_dicts
 SUB_DATA_FOLDER = "smart_contracts/comms_4_20"
 SBTS_DIC, NODES_DIC, COMMS_DIC = get_dicts(SUB_DATA_FOLDER)
 
-
+ 
 Transformer_args = {
 "num_layers": 1,
 "d_model": 256,

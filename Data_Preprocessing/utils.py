@@ -21,17 +21,3 @@ re_opt = re.compile(r'\+|-|\*|/|\*\*|\+\+|--|%|<<|>>|&&|\|\||&|\|\^|<|>|<=|>=|==
 
 
 
-
-
-if __name__ == "__main__":
-    # d0 = [123, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
-    # d1 = ["123", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13"]
-    # d2 = ["abc fsdgsetrfd", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n"]
-    # index = [i for i in range(len(d0))]
-    # np.random.seed(123)
-    # np.random.shuffle(index)
-    # d0_train, d0_val, d0_test = split_dataset(d0, 0.1, 0.1, index)
-    # d1_train, d1_val, d1_test = split_dataset(d1, 0.1, 0.1, index)
-    # d2_train, d2_val, d2_test = split_dataset(d2, 0.1, 0.1, index)
-    pass
-

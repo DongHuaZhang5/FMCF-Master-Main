@@ -3,7 +3,7 @@ import tensorflow as tf
 import numpy as np
 import pickle as pkl
 import random
-
+  
 BUFFER_SIZE = 20000
 # TODO: if you're going to show the generated comments one by one, change the batch_size to 1
 # TODO: in normal evaluation, the batch_size = 100

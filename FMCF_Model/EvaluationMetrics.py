@@ -1,4 +1,4 @@
-
+ 
 from nltk.translate.bleu_score import corpus_bleu, sentence_bleu, SmoothingFunction
 from nltk.translate.meteor_score import meteor_score
 import tensorflow as tf

@@ -79,10 +79,7 @@ def xml_graph(contract_folder, xml_file):
         nodes = " ".join([node[1]['text'] for node in nodes])
         return nodes, edges
 
-if __name__ == "__main__":
-    nodes, edges = xml_graph("contract1", "44_35.txt")
-    print(nodes)
-    print(edges.todense())
+
 
 
 

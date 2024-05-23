@@ -1,8 +1,8 @@
 
 from modules.MMTrans import MMTrans
 from modules.TransformerUtils import TransformerUtils as utils
-import tensorflow as tf
-from Data_Split_Process.Split_comments import get_dicts
+import tensorflow as tf 
+from Data_Preprocessing.Split_comments import get_dicts
 from DataOutput import test_data_prepare, MAX_LENGTH_COMM
 from EvaluationMetrics import EvaluationMetrics
 from modules.CustomSchedule import CustomSchedule

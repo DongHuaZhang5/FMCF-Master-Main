@@ -5,7 +5,7 @@ from Decoder.Learning_Rate import Learning_Rate
 from Encoder.Built_Transformer import Built_Transformer as utils
 import time
 from DataOutput import data_prepare, MAX_LENGTH_COMM
-from Data_Split_Process.Split_comments import get_dicts
+from Data_Preprocessing.Split_comments import get_dicts
 from FMCF_Model.EvaluationMetrics import EvaluationMetrics
 import numpy as np
 from FMCF_Model.Configs import Train_args
